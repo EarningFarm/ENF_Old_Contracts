@@ -1,0 +1,10 @@
+compiler:
+    solc:
+        remappings:
+            - "@openzeppelin=node_modules/@openzeppelin"
+        optimizer:
+            enabled: false
+            runs: 200
+networks:
+   mainnet-fork:
+     default_balance: 1000000000
